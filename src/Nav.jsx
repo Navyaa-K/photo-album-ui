@@ -5,11 +5,6 @@ export const Nav = () => {
   return (
     <div>
 
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div className="row g-3 px-4">
-                        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">PhotoAlbum</a>
@@ -34,11 +29,7 @@ export const Nav = () => {
     </div>
   </div>
 </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                       
     </div>
   )
 }
